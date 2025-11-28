@@ -1,0 +1,15 @@
+{
+    "Home": {
+        "title": "Lista de tarefas"
+    },
+    "LocaleSwitcher": {
+        "label": "🇵🇹/🇧🇷 PT"
+    },
+    "AddTodo": {
+        "placeholder": "Adicione tudo aqui...",
+        "button": "Adicionar"
+    },
+    "ChangeTodo": {
+        "placeholder": "Edite aqui..."
+    }
+}

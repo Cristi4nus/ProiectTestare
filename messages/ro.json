@@ -1,12 +1,12 @@
 {
   "Home": {
-    "title": "Lista de sarcini"
+    "title": "Listă de sarcini"
   },
   "LocaleSwitcher": {
     "label": "🇷🇴 RO"
   },
   "AddTodo": {
-    "placeholder": "Adauga ceva de făcut aici...",
+    "placeholder": "Adaugă ceva de făcut aici...",
     "button": "Adaugă"
   },
   "ChangeTodo": {
