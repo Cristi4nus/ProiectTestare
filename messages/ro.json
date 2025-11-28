@@ -8,5 +8,8 @@
   "AddTodo": {
     "placeholder": "Adauga ceva de făcut aici...",
     "button": "Adaugă"
+  },
+  "ChangeTodo": {
+    "EditHere": "Editează aici..."
   }
 }

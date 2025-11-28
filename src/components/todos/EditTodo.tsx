@@ -7,8 +7,10 @@ import Button from "../button/Button";
 import { useState } from "react";
 import { todoProps } from "@/types";
 import { MdEdit } from "react-icons/md";
+import { useTranslations } from "next-intl";
 
 const EditTodo = ({ todo }: { todo: todoProps }) => {
+  const t = useTranslations('EditTodo');
   const [editTodoState, setEditTodoState] = useState(false);
 
   const handleEdit = () => {
@@ -29,7 +31,7 @@ const EditTodo = ({ todo }: { todo: todoProps }) => {
         <Form action={actions.editTodo} onSubmit={handleSubmit}>
           <Input name="inputId" value={todo.id} type="hidden"></Input>
           <div className="flex justify-center ">
-            <Input type="text" name="newTitle" placeholder="Edit Todo..." />
+            <Input type="text" name="newTitle" placeholder={t('placeholder')} />
             <Button type="submit" text="save"></Button>
           </div>
         </Form>

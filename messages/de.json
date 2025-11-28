@@ -4,5 +4,12 @@
   },
   "LocaleSwitcher": {
     "label": "🇩🇪 DE"
+  },
+  "AddTodo": {
+    "placeholder": "Hier Aufgaben hinzufügen...",
+    "button": "Hinzufügen"
+  },
+  "ChangeTodo": {
+    "placeholder": "Hier bearbeiten..."
   }
 }
