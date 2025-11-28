@@ -4,5 +4,9 @@
   },
   "LocaleSwitcher": {
     "label": "🇬🇧 EN"
+  },
+  "AddTodo": {
+    "placeholder": "Add Todo here...",
+    "button": "Add"
   }
 }

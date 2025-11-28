@@ -4,5 +4,9 @@
   },
   "LocaleSwitcher": {
     "label": "🇷🇴 RO"
+  },
+  "AddTodo": {
+    "placeholder": "Adauga ceva de făcut aici...",
+    "button": "Adaugă"
   }
 }
