@@ -8,7 +8,7 @@ const Input = ({ name, type, placeholder, value }: inputProps) => {
         type={type}
         placeholder={placeholder}
         value={value}
-        className="block w-full p-4 mx-2 border rounded-lg text-base bg-gray-700 border-gray-600 placeholder-gray-400 text-white"
+        className="block w-full p-5 mx-2 border rounded-xl text-lg bg-white/10 border-white/20 placeholder-gray-300 text-white backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent transition-all"
       />
     </div>
   );

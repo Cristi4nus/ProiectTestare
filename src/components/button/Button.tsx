@@ -16,8 +16,8 @@ const Button = ({
         type={type}
         className={clsx(
           actionButton &&
-            "text-white hover:bg-blue-800 focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none",
-          `${bgColor} hover:${bgColor} font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none`
+          "text-white hover:bg-purple-700 focus:ring-4 focus:ring-purple-300 font-semibold rounded-xl text-base px-6 py-3 me-2 mb-2 focus:outline-none transition-all shadow-lg",
+          `${bgColor} text-white font-semibold rounded-xl text-base px-6 py-3 me-2 mb-2 focus:outline-none focus:ring-4 focus:ring-purple-300 transition-all shadow-lg`
         )}
       >
         {text}

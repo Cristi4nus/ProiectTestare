@@ -25,14 +25,14 @@ const EditTodo = ({ todo }: { todo: todoProps }) => {
   };
 
   return (
-    <div className="flex gap-5 items-center">
+    <div className="flex gap-6 items-center">
       <Button onClick={handleEdit} text={<MdEdit />} actionButton />
       {editTodoState ? (
         <Form action={actions.editTodo} onSubmit={handleSubmit}>
           <Input name="inputId" value={todo.id} type="hidden"></Input>
-          <div className="flex justify-center ">
+          <div className="flex justify-center gap-4">
             <Input type="text" name="newTitle" placeholder={t('placeholder')} />
-            <Button type="submit" text="save"></Button>
+            <Button type="submit" text="save" bgColor="bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-indigo-600 hover:to-purple-600"></Button>
           </div>
         </Form>
       ) : null}

@@ -13,7 +13,7 @@ const DeleteTodo = ({ todo }: { todo: todoProps }) => {
       <Button
         actionButton
         type="submit"
-        bgColor="bg-red-400"
+        bgColor="bg-gradient-to-r from-red-400 to-pink-500 hover:from-red-500 hover:to-pink-600"
         text={<FaTrash />}
       ></Button>
     </Form>

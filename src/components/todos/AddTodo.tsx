@@ -10,9 +10,9 @@ const AddTodo = () => {
   return (
     <div>
       <Form action={actions.createTodo}>
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-6 items-center">
           <Input name="input" type="text" placeholder={t("placeholder")} />
-          <Button type="submit" text={t("button")} bgColor="bg-blue-600" />
+          <Button type="submit" text={t("button")} bgColor="bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700" />
         </div>
       </Form>
     </div>
