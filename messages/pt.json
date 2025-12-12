@@ -1,15 +1,15 @@
 {
-    "Home": {
-        "title": "Lista de tarefas"
-    },
-    "LocaleSwitcher": {
-        "label": "🇵🇹/🇧🇷 PT"
-    },
-    "AddTodo": {
-        "placeholder": "Adicione algo para fazer aqui...",
-        "button": "Adicionar"
-    },
-    "ChangeTodo": {
-        "placeholder": "Edite aqui..."
-    }
+  "Home": {
+    "title": "Lista de tarefas"
+  },
+  "LocaleSwitcher": {
+    "label": "🇵🇹/🇧🇷 PT"
+  },
+  "AddTodo": {
+    "placeholder": "Adicione algo para fazer aqui...",
+    "button": "Adicionar"
+  },
+  "ChangeTodo": {
+    "placeholder": "Edite aqui..."
+  }
 }

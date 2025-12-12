@@ -10,6 +10,6 @@
     "button": "Adaugă"
   },
   "ChangeTodo": {
-    "EditHere": "Editează aici..."
+    "placeholder": "Editează aici..."
   }
 }

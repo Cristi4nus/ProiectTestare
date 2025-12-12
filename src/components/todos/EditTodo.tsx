@@ -10,7 +10,7 @@ import { MdEdit } from "react-icons/md";
 import { useTranslations } from "next-intl";
 
 const EditTodo = ({ todo }: { todo: todoProps }) => {
-  const t = useTranslations('EditTodo');
+  const t = useTranslations("ChangeTodo");
   const [editTodoState, setEditTodoState] = useState(false);
 
   const handleEdit = () => {
@@ -31,8 +31,12 @@ const EditTodo = ({ todo }: { todo: todoProps }) => {
         <Form action={actions.editTodo} onSubmit={handleSubmit}>
           <Input name="inputId" value={todo.id} type="hidden"></Input>
           <div className="flex justify-center gap-4">
-            <Input type="text" name="newTitle" placeholder={t('placeholder')} />
-            <Button type="submit" text="save" bgColor="bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-indigo-600 hover:to-purple-600"></Button>
+            <Input type="text" name="newTitle" placeholder={t("placeholder")} />
+            <Button
+              type="submit"
+              text="save"
+              bgColor="bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-indigo-600 hover:to-purple-600"
+            ></Button>
           </div>
         </Form>
       ) : null}
