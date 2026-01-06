@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "lint:fix": "eslint --fix"
+    "lint:fix": "eslint --fix",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "@prisma/client": "^5.13.0",
@@ -22,6 +23,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "cypress": "^15.8.1",
     "eslint": "^9",
     "eslint-config-next": "14.2.3",
     "postcss": "^8",
